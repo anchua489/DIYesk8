@@ -2,9 +2,9 @@
 //Establishes the skateboard end if the electric skateboard setup. Includes an LED power indicator along with a safety to gradually deccelerate the board
 //if the connection with the remote is lost
 
-#include <Servo.h>
+#include <Servo.h>//Inclusion of Servo library to control speed of the brushless motor
 
-Servo ESC; //Inclusion of Servo library to control speed of the brushless motor
+Servo ESC; 
 
 //Setup block to establish baud rate, input output designations, and the pin to control motor control
 void setup() {
