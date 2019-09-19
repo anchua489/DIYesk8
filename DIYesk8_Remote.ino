@@ -35,7 +35,7 @@ public:
     delay(1000);
   }
 
-  void rapidBlink()////LED rapid succession blinking
+  void rapidBlink()//LED rapid succession blinking
   {
     digitalWrite(pinNum, HIGH);
     delay(200);
