@@ -2,6 +2,7 @@
 Arduino code for homemade electric skateboard with Write-up
 
 DIY Electric Skateboard Write-up
+
 Austin Chua
 
 The idea came as I was learning and getting familiar with the Arduino microprocessor. I was experimenting procedures 
