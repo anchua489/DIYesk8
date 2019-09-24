@@ -24,7 +24,7 @@ through incremental development, trialing bits of code at a time to diagnose the
 
 The code for the skateboard end Arduino was less complicated than that of the remote end. The task of the Skateboard Arduino was 
 to read a value and write it to an Electronic Speed Controller (ESC) functioning with the Arduino Servo library to control 
-the speed of a brushless motor. A safety protocol was created to ensure a slow deceleration of the skateboard on the event of a 
+the speed of a brushless motor. A safety protocol was created to ensure a slow decceleration of the skateboard on the event of a 
 loss of connection. This was accomplished by checking for connectivity and using a 10 ms delayed loop to decrement the speed value 
 until 0.
 
